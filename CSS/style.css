@@ -33,6 +33,9 @@ div h1 {
     padding: 20px 0 20px 0;
 }
 
+img {
+    width: 400px;
+}
 input{
     border-radius: 10px;
     padding: 8px;
@@ -44,10 +47,15 @@ button {
     border-radius: 10px;
     padding: 10px;
     margin: 8px;
+    box-shadow: 0 7px #999;
 }
 
 button:hover {
     background-color: #AAD9BB;
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
 }
